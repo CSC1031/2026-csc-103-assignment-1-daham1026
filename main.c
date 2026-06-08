@@ -21,7 +21,7 @@ int main()
     printf("enter english marks: ");
     scanf("%d", &english);
 
-    total= maths + science + english;
+    total= mathematics + science + english;
     average = total/3.0;
 
     return 0;
