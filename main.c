@@ -24,5 +24,26 @@ int main()
     total= mathematics + science + english;
     average = total/3.0;
 
+    if (average >= 80)
+    {
+        grade = 'A';
+    }
+    else if (average >= 70)
+    {
+        grade = 'B';
+    }
+    else if (average >= 60)
+    {
+        grade = 'C';
+    }
+    else if (average >= 50)
+    {
+        grade = 'D';
+    }
+    else
+    {
+        grade = 'F';
+    }
+
     return 0;
 }
