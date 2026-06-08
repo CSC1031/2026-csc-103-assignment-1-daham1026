@@ -50,7 +50,7 @@ int main()
     printf("Average: %.2f\n", average);
     printf("Grade: %c\n", grade);
 
-     if (maths >= 40 && science >= 40 && english >= 40)
+     if (mathematics >= 40 && science >= 40 && english >= 40)
     {
         printf("Result: PASS\n");
     }
