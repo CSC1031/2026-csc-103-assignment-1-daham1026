@@ -4,4 +4,4 @@ description
 
 how to use 
 
-* simply add your mathematics, science and English marks
+* simply add your mathematics, science and English marks and the program will show the rest for you
