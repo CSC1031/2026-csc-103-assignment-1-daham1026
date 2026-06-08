@@ -45,5 +45,19 @@ int main()
         grade = 'F';
     }
 
+    printf("\n----- Student Results -----\n");
+    printf("Total: %d\n", total);
+    printf("Average: %.2f\n", average);
+    printf("Grade: %c\n", grade);
+
+     if (maths >= 40 && science >= 40 && english >= 40)
+    {
+        printf("Result: PASS\n");
+    }
+    else
+    {
+        printf("Result: FAIL\n");
+    }
+
     return 0;
 }
